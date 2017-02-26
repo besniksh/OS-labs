@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
-
+//BAJT PO BAJT
 public class HW01_2{
     public static void main(String[] args) throws IOException {
         FileInputStream fis;
