@@ -1,11 +1,13 @@
-package com.company;
+package com.finki.os.labs;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
-//BAJT PO BAJT
+
+/// ---- BAJT PO BAJT ------ ///
+
 public class HW01_2{
     public static void main(String[] args) throws IOException {
         FileInputStream fis;
@@ -20,8 +22,10 @@ public class HW01_2{
         ArrayList<Integer> tekst = new ArrayList<Integer>();
         int bajt = 0;
 
-        while((bajt = fis.read()) != -1)
+        while((bajt = fis.read()) != -1){
             tekst.add(bajt);
+        }
+
 
         fis.close();
 

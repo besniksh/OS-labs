@@ -1,4 +1,4 @@
-package com.company;
+package com.finki.os.labs;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
