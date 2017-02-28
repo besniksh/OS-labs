@@ -13,7 +13,7 @@ public class SafeReadFileIntoBuffer {
 
   public static void main(String[] args) throws IOException {
     InputStream inputStream = new FileInputStream(
-      new File("data.txt")
+      new File("data/izvor.txt")
     );
 
     byte[] data = new byte[100];
