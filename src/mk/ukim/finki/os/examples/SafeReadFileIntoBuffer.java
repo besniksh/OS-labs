@@ -29,7 +29,6 @@ public class SafeReadFileIntoBuffer {
       data[index] = (byte) current;
       index++;
     }
-
     System.out.printf("Successfully read %d bytes!\n", index);
     System.out.println("The content of the file is: ");
     System.out.println(new String(data, 0, index));
