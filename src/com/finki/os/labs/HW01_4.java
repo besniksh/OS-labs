@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class HW01_4 {
     public static void main(String[]args) {
+        //lab1 zadaca 4 ama hala sja kam nis...
 
     }
 }
