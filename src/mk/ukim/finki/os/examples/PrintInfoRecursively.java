@@ -4,7 +4,6 @@ import mk.ukim.finki.os.io.FileInfoPrinter;
 import mk.ukim.finki.os.io.FileManager;
 import mk.ukim.finki.os.io.filters.JavaClassesFilter;
 import mk.ukim.finki.os.io.impl.FileManagerImpl;
-import mk.ukim.finki.os.io.impl.FileNamePrinter;
 import mk.ukim.finki.os.io.impl.FileNameWithoutDirectoryPrinter;
 
 import java.io.File;
