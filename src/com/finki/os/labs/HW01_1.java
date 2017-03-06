@@ -6,8 +6,6 @@ import java.io.FilenameFilter;
 public class HW01_1 {
 
     public static void main(String[] args) {
-        // write your code here
-        //System.out.println("Hello World!");
         if(args.length == 0){
             System.out.println("Ne e vnesen nitu eden argument");
             return;
@@ -37,7 +35,5 @@ public class HW01_1 {
         double prosek = vkupno/files.length;
 
         System.out.println("Vkupnataa golemina na .txt fajlovite e "+vkupno+" bajti\n A prosocntata golemina e " +prosek+ " bajti");
-
-
     }
 }
