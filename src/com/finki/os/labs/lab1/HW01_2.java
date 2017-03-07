@@ -1,4 +1,4 @@
-package com.finki.os.labs;
+package com.finki.os.labs.lab1;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
