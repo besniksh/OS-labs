@@ -90,6 +90,7 @@ public class ExamIO2 {
     public static void serializeData(String destination, List<byte[]> data) throws IOException {
 
         FileOutputStream fos = null;
+
         try {
             fos = new FileOutputStream(new File(destination));
             for (byte[] element : data) {

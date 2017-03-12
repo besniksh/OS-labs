@@ -4,6 +4,7 @@ import mk.ukim.finki.os.io.exceptions.NotDirectoryException;
 
 import java.io.*;
 import java.nio.BufferOverflowException;
+import java.util.ArrayList;
 
 /**
  * Created by besniksh on 3/5/17.
@@ -27,7 +28,7 @@ public class JunskaSesija {
             }
         });
         FileInputStream fis = null;
-        FileInputStream fos = null;
+        FileOutputStream fos = null;
 
         if(!fin.exists()){
             System.out.println("ne postoi");
@@ -46,25 +47,37 @@ public class JunskaSesija {
                     System.out.println("zbunet sum : " + f.getAbsolutePath());
                 }
                 else if (f.canWrite()) {
-                    //                File newfile = new File(fout,f.getName());
-                    //
-                    //                f.renameTo(newfile);
-                    //                System.out.println("Pomestuvam: " + f.getName())
                     moveFile(f, out);
                     System.out.println("Pomestuvam : "+ f.getAbsolutePath());
                 }
                 else if(!f.canWrite()){
+                    File writtable = new File("data/resources/writable-content.txt");
 
-                    File writable = new File("data/resources/writable-content.txt");
-                    RandomAccessFile rf = new RandomAccessFile(f, "r");
-                    RandomAccessFile wf = new RandomAccessFile(writable, "rw");
 
-                    wf.seek(wf.length());
-                    for(long i=0;i<rf.length();i++){
-                        rf.seek(i);
-                        byte b = rf.readByte();
-                        wf.write(b);
+                    BufferedReader br = new BufferedReader(new FileReader(f));
+                    BufferedReader br2 = new BufferedReader(new FileReader(writtable));
+
+                    String line;
+                    String result = "";
+
+                    while((line = br.readLine()) != null){
+                        result = result + line; //total of 'file'
                     }
+                    String result2 = "";
+                    String line2;
+
+                    while((line2 = br2.readLine()) != null){
+                        result2 = result2 + line2;
+                    }
+                    fos = new FileOutputStream(writtable);
+
+                    String total = result + result2;
+                    fos.write(total.getBytes());
+
+
+
+
+
                     System.out.println("dopisuvam : "+ f.getAbsolutePath());
                 }
             }
@@ -95,7 +108,5 @@ public class JunskaSesija {
         }
 
         return file.renameTo(renamedfile);
-
-
     }
 }

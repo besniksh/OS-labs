@@ -10,6 +10,9 @@ import java.io.IOException;
 public class HW01_3 {
     public static void main(String[] args) throws IOException{
         BufferedReader br;
+        BufferedWriter bw;
+        StringBuilder sb = new StringBuilder();
+        String str;
 
         try{
             br = new BufferedReader(new FileReader("data/izvor.txt"));
@@ -18,7 +21,6 @@ public class HW01_3 {
             return;
         }
 
-        BufferedWriter bw;
 
         try{
             bw = new BufferedWriter(new FileWriter("data/destinacija.txt"));
@@ -28,8 +30,6 @@ public class HW01_3 {
             return;
         }
 
-        StringBuilder sb = new StringBuilder();
-        String str;
 
         while ((str = br.readLine()) != null){
             sb = new StringBuilder(str);

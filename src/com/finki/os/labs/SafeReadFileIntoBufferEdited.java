@@ -2,6 +2,8 @@ package com.finki.os.labs;
 
 import java.io.*;
 import java.nio.BufferOverflowException;
+import java.nio.channels.NoConnectionPendingException;
+import java.util.ArrayList;
 
 /**
  * @author Riste Stojanov
@@ -21,6 +23,14 @@ public class SafeReadFileIntoBufferEdited{
             return;
         }
 
+        FileOutputStream fos;
+        try{
+            fos = new FileOutputStream("data/destinacija.txt");
+        }catch (FileNotFoundException e){
+            System.out.println("Ne moze da se otvori fajlot!");
+            return;
+        }
+
         byte[] data = new byte[100];
         int index = 0;
         int current;
@@ -33,22 +43,15 @@ public class SafeReadFileIntoBufferEdited{
             // Only one byte is read by inputStream.read() in range between 0-255, so the cast is safe
             data[index] = (byte) current;
             index++;
+            fos.write(data[index]);
         }
-
-//        FileOutputStream fos;
-//
-//        try{
-//            fos = new FileOutputStream("data/destinacija.txt");
-//        }catch (FileNotFoundException e){
-//            System.out.println("Ne moze da se otvori fajlot!");
-//            return;
-//        }
 
 
 
         System.out.println("Successfully read "+index+" bytes");
         System.out.println("The content of the file is: ");
         System.out.println(new String(data, 0, index));
+
 
     }
 }

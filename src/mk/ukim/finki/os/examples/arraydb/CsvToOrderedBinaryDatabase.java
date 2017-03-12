@@ -1,5 +1,7 @@
 package mk.ukim.finki.os.examples.arraydb;
 
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 import java.io.*;
 
 /**
@@ -17,7 +19,6 @@ public class CsvToOrderedBinaryDatabase {
 
     public static void main(String[] args) throws IOException {
         parseCsv(CSV_FILE, DB_FILE);
-
     }
 
     public static void parseCsv(String csvFile, String binFile) throws IOException {
@@ -54,7 +55,7 @@ public class CsvToOrderedBinaryDatabase {
 
     private static void saveLine(String line, RandomAccessFile randomAccessFile) throws IOException {
         //TODO: change the code to write it in the right place
-
+        System.out.println("LINE: "+line);
         String[] elements = validateAndGetElements(line);
         //ADVICE: Always use trim() before parsing type (unless white spaces are expected)
         Long rowNumber = Long.parseLong(
@@ -62,15 +63,16 @@ public class CsvToOrderedBinaryDatabase {
         );
         String value = elements[1].trim();
         String status = elements[2].trim();
-        validateElements(value, status);
-        randomAccessFile.writeLong(rowNumber);
-        // if the characters are cyrillic, there will be 2 bytes per character
-        System.out.println("Value length: " + value.getBytes().length);
 
-        // Documentation snippet from DataOutputStream.writeUTF:
-        // First, two bytes are written to out as if by the <code>writeShort</code>
-        // method giving the number of bytes to follow ...
+        validateElements(value, status);
+
+        // if the characters are cyrillic, there will be 2 bytes per character
+        System.out.println("RowNumber length : " );
+        randomAccessFile.writeLong(rowNumber);
+
+        System.out.println("Value length: " + value.getBytes().length);
         randomAccessFile.writeUTF(value);
+
         System.out.println("Status length: " + status.getBytes().length);
         randomAccessFile.writeUTF(status);
     }
@@ -109,18 +111,18 @@ public class CsvToOrderedBinaryDatabase {
     }
 
     private static void printElement(RandomAccessFile randomAccessFile, int index) throws IOException {
-        byte[] valueBytes = new byte[VALUE_BYTES];
-        byte[] statusBytes = new byte[STATUS_BYTES];
-
+        System.out.println("file pointer: " + randomAccessFile.getFilePointer());
         // go to the position of the element
-        randomAccessFile.seek(index * ELEMENT_SIZE);
 
+        randomAccessFile.seek(index * ELEMENT_SIZE);
         //read from the random access file
+
         Long rowNumber = randomAccessFile.readLong();
 
+        System.out.println("index : " + index);
         String value = randomAccessFile.readUTF();
+
         String status = randomAccessFile.readUTF();
-        System.out.println("file pointer: " + randomAccessFile.getFilePointer());
 
         System.out.println(rowNumber + ", " + value + ", " + status);
     }
