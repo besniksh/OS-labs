@@ -39,7 +39,6 @@ public class CsvToOrderedBinaryDatabase {
         printDatabase(binFile);
     }
 
-
     private static BufferedReader openCsv(String csvFile) throws FileNotFoundException {
         File file = new File(csvFile);
         if (!file.exists()) {
