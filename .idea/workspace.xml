@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f13956b-bf8b-4a41-b43a-c6777f7e65cf" name="Default" comment="Прв колоквиум (група 1)">
+    <list default="true" id="9f13956b-bf8b-4a41-b43a-c6777f7e65cf" name="Default" comment="2nd commit from intelij">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/arraydb/CsvToOrderedBinaryDatabase.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/arraydb/CsvToOrderedBinaryDatabase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/arraydb/CsvToOrderedBinaryDatabase.java" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/arraydb/CsvToOrderedBinaryDatabase.java" />
     </list>
     <list id="1dd99c22-f5c2-423b-b854-fc1e529f52c4" name="Rejected commit: Default" comment="Прв колоквиум (група 1)" />
     <ignored path="OS - labs.iws" />
@@ -32,8 +34,8 @@
       <file leaf-file-name="CsvToOrderedBinaryDatabase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mk/ukim/finki/os/examples/arraydb/CsvToOrderedBinaryDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+            <state relative-caret-position="188">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -134,6 +136,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="OperativniSistemi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OperativniSistemi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OperativniSistemi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -697,7 +709,7 @@
       <workItem from="1488326260053" duration="2012000" />
       <workItem from="1488381887256" duration="3232000" />
       <workItem from="1488577818912" duration="9228000" />
-      <workItem from="1496759643062" duration="446000" />
+      <workItem from="1496759643062" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 3 + Riste Files">
       <created>1488108158759</created>
@@ -713,11 +725,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488383116138</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit from intelij">
+      <created>1496760132521</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1496760132521</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34859000" />
+    <option name="totallyTimeSpent" value="35033000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -739,12 +758,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5554963" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25460455" sideWeight="0.47865528" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25460455" sideWeight="0.47865528" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.49786553" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18923241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18923241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -774,7 +793,9 @@
     <MESSAGE value="Lab 3 + Riste Files" />
     <MESSAGE value="CsvToOrderedBinaryDatabase" />
     <MESSAGE value="Прв колоквиум (група 1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Прв колоквиум (група 1)" />
+    <MESSAGE value="commit from intelij" />
+    <MESSAGE value="2nd commit from intelij" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit from intelij" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -951,8 +972,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mk/ukim/finki/os/examples/arraydb/CsvToOrderedBinaryDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        <state relative-caret-position="188">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding />
         </state>
       </provider>

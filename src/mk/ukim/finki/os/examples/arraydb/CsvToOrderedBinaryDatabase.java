@@ -6,6 +6,7 @@ import java.io.*;
 
 /**
  * @author Riste Stojanov
+ * // binarnjo zapisuvanje
  */
 public class CsvToOrderedBinaryDatabase {
 
