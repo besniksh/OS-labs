@@ -18,11 +18,13 @@ public class ExamIO {
 
         moveWritableTxtFiles("data/dirfrom", "data/dirto");
 
-        List<byte[]> data=new ArrayList<byte[]>();
-        deserializeData("data/izvor.txt",data,3);
-        //System.out.println(data);
+        List<byte[]> data=new ArrayList<>();
+        deserializeData("data\\destination.txt",data,3);
+        for(byte[] element : data){
+            System.out.println(element);
+        }
 
-        invertLargeFile("data/izvor.txt","data/destinacija.txt");
+        //invertLargeFile("data/izvor.txt","data/destinacija.txt");
 
     }
 

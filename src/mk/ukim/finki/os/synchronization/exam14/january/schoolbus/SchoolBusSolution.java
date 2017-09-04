@@ -41,26 +41,20 @@ public class SchoolBusSolution {
 		@Override
 		public void execute() throws InterruptedException {
 			driver.acquire();
-			lock.acquire();
 			state.driverEnter();
 			student.release(50);
-			lock.release();
 
 
 			departure.acquire();
 
-			lock.acquire();
 			state.busDeparture();
 			state.busArrive();
 			sleave.release(50);
-			lock.release();
 
 
 			dleave.acquire();
-			lock.acquire();
 			state.driverLeave();
 			driver.release();
-			lock.release();
 		}
 	}
 

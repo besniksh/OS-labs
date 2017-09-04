@@ -10,32 +10,18 @@ import mk.ukim.finki.os.synchronization.TemplateThread;
 
 public class CalciumNitride {
 
-	static int caNum;
-	static Semaphore lock;
+//TODO : Ca3 N2
+	public static Semaphore ca = new Semaphore(3);
+	public static Semaphore n = new Semaphore(2);
 
-	static Semaphore n;
-	static Semaphore ca;
+	public static Semaphore ready = new Semaphore(0);
+	public static Semaphore lock  = new Semaphore(1);
 
-	static Semaphore nHere;
-	static Semaphore caHere;
-	static Semaphore ready;
+	public static Semaphore done = new Semaphore(0);
 
-	static Semaphore bondingDone;
-	static Semaphore canLeave;
-
+	public static int caCount = 0;
 	public static void init() {
-		caNum = 0;
-		lock = new Semaphore(1);
 
-		n = new Semaphore(2);
-		ca = new Semaphore(3);
-
-		nHere = new Semaphore(0);
-		caHere = new Semaphore(0);
-		ready = new Semaphore(0);
-
-		bondingDone = new Semaphore(0);
-		canLeave = new Semaphore(0);
 
 	}
 
@@ -49,30 +35,30 @@ public class CalciumNitride {
 		public void execute() throws InterruptedException {
 			ca.acquire();
 			lock.acquire();
-			caNum++;
-			if (caNum == 3) {
-				// tret ca atom
-				caNum = 0;
+			caCount++;
+			if(caCount==3){
 				lock.release();
-				nHere.acquire(2);
 				ready.release(4);
 				state.bond();
-				bondingDone.acquire(4);
-				canLeave.release(4);
+
+				done.acquire(4);
 				state.validate();
+
+				lock.acquire();
+				caCount=0;
 				ca.release(3);
-			} else {
-				// prv i vtor ca atom
+				n.release(2);
 				lock.release();
-				ready.acquire();// x2 ca atoms
+
+			}
+			else{
+				lock.release();
+				ready.acquire();
 				state.bond();
-				bondingDone.release();
-				canLeave.acquire();
+				done.release();
 			}
 		}
-
 	}
-
 	public static class Nitrogen extends TemplateThread {
 
 		public Nitrogen(int numRuns) {
@@ -82,13 +68,11 @@ public class CalciumNitride {
 		@Override
 		public void execute() throws InterruptedException {
 			n.acquire();
-			nHere.release();
-			ready.acquire(); // x2 n atoms
+			ready.acquire();
 			state.bond();
-			bondingDone.release();
-			canLeave.acquire();
-			n.release();
+			done.release();
 		}
+
 
 	}
 

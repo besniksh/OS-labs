@@ -1,0 +1,16 @@
+work(String fromDir, String toDir)
+
+- Da se pomine fromDir rekurzivno, site fajlovi da se kopirat vo toDir
+- Ako fromDir ne postoi , da frli isklucok , ako toDir ne postoi da se kreira
+
+- toDir inicijalno treba da bide prazen
+
+- site fajlovi da se procesirat - vo toDir\details.bin
+
+xx|filename|yyy|fullpath|rwx
+
+xx - filename 2 bajti filename kako string
+yyy - tri bajti fll-path kako string
+rwx - 3 bajti r w x
+
+c:\users\file.bin ---->> 08file.bin009C:\users\r--

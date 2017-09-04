@@ -8,32 +8,20 @@ import mk.ukim.finki.os.synchronization.ProblemExecution;
 import mk.ukim.finki.os.synchronization.TemplateThread;
 
 public class AluminiumHydroxide {
+	//TODO : AL (OH)3
+	public static Semaphore al = new Semaphore(1);
+	public static Semaphore o = new Semaphore(3);
+	public static Semaphore h = new Semaphore(3);
 
-	static Semaphore o;
-	static Semaphore h;
-	static Semaphore al;
+	public static Semaphore ohHere = new Semaphore(0);
+	public static Semaphore hHere = new Semaphore(0);
 
-	static Semaphore ohHere;
-	static Semaphore oHere;
+	public static Semaphore ohReady = new Semaphore(0);
 
-	static Semaphore ohReady;
-	static Semaphore ready;
-	static Semaphore done;
-	static Semaphore next;
-
+	public static Semaphore ready = new Semaphore(0);
+	public static Semaphore done = new Semaphore(0);
 	public static void init() {
-		o = new Semaphore(3);
-		h = new Semaphore(3);
-		al = new Semaphore(1);
 
-		oHere = new Semaphore(0);
-		ohHere = new Semaphore(0);
-
-		ohReady = new Semaphore(0);
-		ready = new Semaphore(0);
-
-		done = new Semaphore(0);
-		next = new Semaphore(0);
 
 	}
 
@@ -46,15 +34,13 @@ public class AluminiumHydroxide {
 		@Override
 		public void execute() throws InterruptedException {
 			h.acquire();
-			oHere.acquire();
-			ohReady.release();
+			hHere.release();
+			ohReady.acquire();
 			state.bondOH();
 			ohHere.release();
 			ready.acquire();
 			state.bondAlOH3();
 			done.release();
-			next.acquire();
-			h.release();
 		}
 
 	}
@@ -68,15 +54,14 @@ public class AluminiumHydroxide {
 		@Override
 		public void execute() throws InterruptedException {
 			o.acquire();
-			oHere.release();
-			ohReady.acquire();
+			hHere.acquire();
+			ohReady.release();
 			state.bondOH();
 			ohHere.release();
 			ready.acquire();
 			state.bondAlOH3();
 			done.release();
-			next.acquire();
-			o.release();
+
 		}
 
 	}
@@ -91,11 +76,15 @@ public class AluminiumHydroxide {
 		public void execute() throws InterruptedException {
 			al.acquire();
 			ohHere.acquire(6);
+
 			ready.release(6);
 			state.bondAlOH3();
+
 			done.acquire(6);
-			next.release(6);
 			state.validate();
+
+			o.release(3);
+			h.release(3);
 			al.release();
 		}
 

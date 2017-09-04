@@ -16,17 +16,17 @@ public class ExamIO2 {
 
     public static void main(String[] args) throws IOException {
 
-        //moveWritableTxtFiles("data/dirfrom", "data/dirto", 100);
+        moveWritableTxtFiles("data\\dirfrom", "data\\dirto", 1);
 
         ArrayList<byte[]> data = new ArrayList<byte[]>();
         byte[] element = {'b','e','s','n','i','k'};
         data.add(element);
-        serializeData("data/destinacija.txt", data);
+        serializeData("data\\destination.txt", data);
 
 
 
         try {
-            byte[] rez = deserializeDataAtPosition("data/izvor.txt", 0, 3);
+            byte[] rez = deserializeDataAtPosition("data\\destination.txt", 1, 3);
             for (byte b : rez){
                 System.out.print((char)b + " ");
             }
@@ -39,7 +39,11 @@ public class ExamIO2 {
 
     public static void moveWritableTxtFiles(String from, String to, long size) {
         File fromf = new File(from);
+        File tofile = new File(to);
 
+        if(!tofile.exists()){
+            tofile.mkdirs();
+        }
         if (fromf.isDirectory()) {
             File[] allfiletxt = fromf.listFiles(new FilenameFilter() {
                 @Override
@@ -65,26 +69,11 @@ public class ExamIO2 {
     }
 
 
-    public static boolean moveFile(File file, String newParent) {
-        return moveAndRenameFile(file, newParent, file.getName());
+    public static boolean moveFile(File from, String to) {
+        File nov = new File(to,from.getName());
+        return from.renameTo(nov);
     }
 
-    public static boolean moveAndRenameFile(File file, String newParent, String newName) {
-        File parent = new File(newParent);
-        parent.mkdir();
-
-        if (!parent.isDirectory()) {
-            throw new NotDirectoryException(parent.getAbsolutePath());
-        }
-
-        File renamedFile = new File(parent, newName);
-
-        if (renamedFile.exists()) {
-            throw new NotDirectoryException(renamedFile.getAbsolutePath());
-        }
-
-        return file.renameTo(renamedFile);
-    }
 
 
     public static void serializeData(String destination, List<byte[]> data) throws IOException {
@@ -117,6 +106,7 @@ public class ExamIO2 {
             for (int i=0; i<elementLength; i++){
                 buffer[i] = random.readByte();
             }
+
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
