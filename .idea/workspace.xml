@@ -1,127 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2299f71f-87b2-46d2-82cd-f8ee93d5dcc6" name="Default" comment="Before Sep. Exam">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/arraydb_mySolution/CsvToOrderedBinaryDatabase.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/arraydb_mySolution/CsvToOrderedBinaryDatabase.osdb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/destination.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/dirfrom/2.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/dirfrom/file.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/dirto/besnik.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/dirto/details.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/dirto/file.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/dirto/finki.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/dirto/riste.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/dirto/shabani.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/dirto/stojanov.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/in/rek/besnik.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/input.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/izlez/b.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/izlez/write.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/outORG/2.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/outORG/big.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skender/2nd.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skender/big.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skender/destianation.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skender/destinacija.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skenderORG/destinacija.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skenderORG/destination.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skenderORG/dirfrom/.hidden.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skenderORG/dirfrom/data1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skenderORG/dirfrom/program.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skenderORG/input.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skenderORG/izvor.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skenderORG/rezultati.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skenderORG/rezultati.tsv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/vlez/123.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/vlez/b.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/vlez/rw.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/Juni2017.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/Kol12017/Kol12017.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/Kol12017/kol12017.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/LsMvCp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/September2015t1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/September2015t2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/SkenderRec.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/arraydb/CsvToOrderedBinaryDatabase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/arraydb/CsvToOrderedBinaryDatabase.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/arraydb/mySolution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/charcount/CharCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/charcount/CharCountV2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/prova.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s1/Euro2016.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s1/Euro2016State.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s1/euro2016.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s2/OxalicAcid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s2/OxalicAcidSolution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s2/OxalicAcidState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s2/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s3/t1/DisulfurousAcid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s3/t1/DisulfurousAcidSolution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s3/t1/DisulfurousAcidState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s3/t1/zad-2-t1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s3/t2/HypophosphoricAcid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s3/t2/HypophosphoricAcidState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/s3/t2/zad-2-t2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam17/k1/g1/MusicBand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam17/k1/g1/MusicBandState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam17/k1/g1/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam17/k1/g2/Concert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam17/k1/g2/ConcertState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam17/k1/g2/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam17/k1/g3/Concert2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam17/k1/g3/Concert2State.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam17/k1/g3/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/juni17/Scheduler.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/description.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/project-template.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/in/program.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/arraydb/CsvToOrderedBinaryDatabase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/arraydb/CsvToOrderedBinaryDatabase.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/arraydb/CsvToOrderedBinaryDatabase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/arraydb/CsvToOrderedBinaryDatabase.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/sync/Pool.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/ExamIO/ExamIO$1.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/ExamIO/ExamIO$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/ExamIO/ExamIO.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/ExamIO/ExamIO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/ExamIO/ExamIO2$1.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/ExamIO/ExamIO2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/ExamIO/ExamIO2.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/ExamIO/ExamIO2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/ExamIO/JunskaSesija$1.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/ExamIO/JunskaSesija$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/ExamIO/JunskaSesija.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/examples/ExamIO/JunskaSesija.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/io/filters/JavaClassesFilter.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/io/filters/JavaClassesFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/january/schoolbus/SchoolBusSolution$Driver.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/january/schoolbus/SchoolBusSolution$Driver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/january/schoolbus/SchoolBusSolution$Student.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/january/schoolbus/SchoolBusSolution$Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/january/schoolbus/SchoolBusSolution.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/january/schoolbus/SchoolBusSolution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/aloh3/AluminiumHydroxide$Aluminium.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/aloh3/AluminiumHydroxide$Aluminium.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/aloh3/AluminiumHydroxide$Hydrogen.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/aloh3/AluminiumHydroxide$Hydrogen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/aloh3/AluminiumHydroxide$Oxygen.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/aloh3/AluminiumHydroxide$Oxygen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/aloh3/AluminiumHydroxide.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/aloh3/AluminiumHydroxide.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/ca3n2/CalciumNitride$Calcium.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/ca3n2/CalciumNitride$Calcium.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/ca3n2/CalciumNitride$Nitrogen.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/ca3n2/CalciumNitride$Nitrogen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/ca3n2/CalciumNitride.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam14/march/ca3n2/CalciumNitride.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam16/k1/g4/Tablanet$Dealer.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam16/k1/g4/Tablanet$Dealer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam16/k1/g4/Tablanet$Player.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam16/k1/g4/Tablanet$Player.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam16/k1/g4/Tablanet.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/exam16/k1/g4/Tablanet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/problems/SmokersAndAgent$State.class" afterPath="$PROJECT_DIR$/out/production/OperativniSistemi/mk/ukim/finki/os/synchronization/problems/SmokersAndAgent$State.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="2299f71f-87b2-46d2-82cd-f8ee93d5dcc6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skender/destination.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skender/dirfrom/.hidden.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skender/dirfrom/data1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skender/dirfrom/program.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skender/input.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skender/izvor.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skender/rezultati.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/skender/rezultati.tsv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OperativniSistemi.iml" afterPath="$PROJECT_DIR$/OperativniSistemi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/destianation.txt" afterPath="$PROJECT_DIR$/data/destianation.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/destinacija.txt" afterPath="$PROJECT_DIR$/data/destinacija.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/dirfrom/143063.txt" afterPath="$PROJECT_DIR$/data/dirfrom/143063.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/rezultati.csv" afterPath="$PROJECT_DIR$/data/rezultati.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/rezultati.tsv" afterPath="$PROJECT_DIR$/data/rezultati.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/ExamIO.java" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/ExamIO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/ExamIO2.java" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/ExamIO2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/JunskaSesija.java" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/examples/ExamIO/JunskaSesija.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam14/january/schoolbus/SchoolBusSolution.java" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam14/january/schoolbus/SchoolBusSolution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam14/march/aloh3/AluminiumHydroxide.java" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam14/march/aloh3/AluminiumHydroxide.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam14/march/ca3n2/CalciumNitride.java" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam14/march/ca3n2/CalciumNitride.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/k1/g4/Tablanet.java" afterPath="$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/exam16/k1/g4/Tablanet.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -136,8 +25,8 @@
       <file leaf-file-name="Scheduler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/juni17/Scheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1778">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="-1416">
+              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#989#990#0" expanded="true" />
@@ -245,6 +134,11 @@
             <path>
               <item name="OperativniSistemi" type="b2602c69:ProjectViewProjectNode" />
               <item name="OperativniSistemi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OperativniSistemi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OperativniSistemi" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OperativniSistemi" type="b2602c69:ProjectViewProjectNode" />
@@ -524,12 +418,20 @@
       <workItem from="1504112500984" duration="973000" />
       <workItem from="1504191517818" duration="1396000" />
       <workItem from="1504194162401" duration="795000" />
-      <workItem from="1504465664741" duration="5489000" />
+      <workItem from="1504465664741" duration="5641000" />
     </task>
+    <task id="LOCAL-00001" summary="Before Sep. Exam">
+      <created>1504528551210</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1504528551210</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73032000" />
+    <option name="totallyTimeSpent" value="73184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -542,8 +444,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39219934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39219934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1043,8 +945,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mk/ukim/finki/os/synchronization/juni17/Scheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1778">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="-1416">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#989#990#0" expanded="true" />
